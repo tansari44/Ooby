@@ -8,22 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		0762EC801EC3BBC600C3A4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC7F1EC3BBC600C3A4BF /* AppDelegate.swift */; };
-		0762EC821EC3BBC600C3A4BF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC811EC3BBC600C3A4BF /* FirstViewController.swift */; };
-		0762EC841EC3BBC600C3A4BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC831EC3BBC600C3A4BF /* SecondViewController.swift */; };
+		0762EC821EC3BBC600C3A4BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC811EC3BBC600C3A4BF /* HomeViewController.swift */; };
+		0762EC841EC3BBC600C3A4BF /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC831EC3BBC600C3A4BF /* FriendsViewController.swift */; };
 		0762EC871EC3BBC600C3A4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0762EC851EC3BBC600C3A4BF /* Main.storyboard */; };
 		0762EC891EC3BBC600C3A4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0762EC881EC3BBC600C3A4BF /* Assets.xcassets */; };
 		0762EC8C1EC3BBC600C3A4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0762EC8A1EC3BBC600C3A4BF /* LaunchScreen.storyboard */; };
+		0762EC941EC3BE6900C3A4BF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762EC931EC3BE6900C3A4BF /* DetailsViewController.swift */; };
+		0762ECA21ECB76C500C3A4BF /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECA11ECB76C500C3A4BF /* libstdc++.6.dylib */; };
+		0762ECA41ECB76CF00C3A4BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECA31ECB76CF00C3A4BF /* SystemConfiguration.framework */; };
+		0762ECA61ECB76D600C3A4BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECA51ECB76D600C3A4BF /* AudioToolbox.framework */; };
+		0762ECA81ECB76DE00C3A4BF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECA71ECB76DE00C3A4BF /* libsqlite3.dylib */; };
+		0762ECAA1ECB79DA00C3A4BF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECA91ECB79DA00C3A4BF /* Bolts.framework */; };
+		0762ECAC1ECB79E600C3A4BF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0762ECAB1ECB79E600C3A4BF /* Parse.framework */; };
+		0796A1641EE8B36C00EF891E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796A1631EE8B36C00EF891E /* CoreLocation.framework */; };
+		07C368B11ECBC89600BE9421 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C368B01ECBC89600BE9421 /* LoginViewController.swift */; };
+		07C368B31ECFAE8300BE9421 /* FriendInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C368B21ECFAE8300BE9421 /* FriendInfoViewController.swift */; };
+		07C368B51ED602AE00BE9421 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C368B41ED602AE00BE9421 /* AddFriendViewController.swift */; };
+		07C368B71ED6099F00BE9421 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C368B61ED6099F00BE9421 /* AddLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0762EC7C1EC3BBC600C3A4BF /* Ooby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ooby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0762EC7F1EC3BBC600C3A4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0762EC811EC3BBC600C3A4BF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0762EC831EC3BBC600C3A4BF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0762EC811EC3BBC600C3A4BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0762EC831EC3BBC600C3A4BF /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		0762EC861EC3BBC600C3A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0762EC881EC3BBC600C3A4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0762EC8B1EC3BBC600C3A4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0762EC8D1EC3BBC600C3A4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0762EC931EC3BE6900C3A4BF /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0762EC9C1ECB768C00C3A4BF /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ../../Downloads/ParseServerStarterProject/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		0762EC9E1ECB76A000C3A4BF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../../Downloads/ParseServerStarterProject/ParseUI.framework; sourceTree = "<group>"; };
+		0762ECA11ECB76C500C3A4BF /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = "<absolute>"; };
+		0762ECA31ECB76CF00C3A4BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0762ECA51ECB76D600C3A4BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0762ECA71ECB76DE00C3A4BF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0762ECA91ECB79DA00C3A4BF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0762ECAB1ECB79E600C3A4BF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0796A1631EE8B36C00EF891E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07C368B01ECBC89600BE9421 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		07C368B21ECFAE8300BE9421 /* FriendInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendInfoViewController.swift; sourceTree = "<group>"; };
+		07C368B41ED602AE00BE9421 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		07C368B61ED6099F00BE9421 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0796A1641EE8B36C00EF891E /* CoreLocation.framework in Frameworks */,
+				0762ECA21ECB76C500C3A4BF /* libstdc++.6.dylib in Frameworks */,
+				0762ECA41ECB76CF00C3A4BF /* SystemConfiguration.framework in Frameworks */,
+				0762ECA61ECB76D600C3A4BF /* AudioToolbox.framework in Frameworks */,
+				0762ECA81ECB76DE00C3A4BF /* libsqlite3.dylib in Frameworks */,
+				0762ECAC1ECB79E600C3A4BF /* Parse.framework in Frameworks */,
+				0762ECAA1ECB79DA00C3A4BF /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				0762EC7E1EC3BBC600C3A4BF /* Ooby */,
+				0762EC971ECB762000C3A4BF /* Frameworks */,
 				0762EC7D1EC3BBC600C3A4BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,14 +91,59 @@
 			isa = PBXGroup;
 			children = (
 				0762EC7F1EC3BBC600C3A4BF /* AppDelegate.swift */,
-				0762EC811EC3BBC600C3A4BF /* FirstViewController.swift */,
-				0762EC831EC3BBC600C3A4BF /* SecondViewController.swift */,
 				0762EC851EC3BBC600C3A4BF /* Main.storyboard */,
+				07C368B01ECBC89600BE9421 /* LoginViewController.swift */,
+				0762EC951EC3BEB100C3A4BF /* Locations */,
+				0762EC961EC3BEBD00C3A4BF /* Friends */,
 				0762EC881EC3BBC600C3A4BF /* Assets.xcassets */,
 				0762EC8A1EC3BBC600C3A4BF /* LaunchScreen.storyboard */,
 				0762EC8D1EC3BBC600C3A4BF /* Info.plist */,
 			);
 			path = Ooby;
+			sourceTree = "<group>";
+		};
+		0762EC951EC3BEB100C3A4BF /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0762EC811EC3BBC600C3A4BF /* HomeViewController.swift */,
+				07C368B61ED6099F00BE9421 /* AddLocationViewController.swift */,
+				0762EC931EC3BE6900C3A4BF /* DetailsViewController.swift */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		0762EC961EC3BEBD00C3A4BF /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				0762EC831EC3BBC600C3A4BF /* FriendsViewController.swift */,
+				07C368B41ED602AE00BE9421 /* AddFriendViewController.swift */,
+				07C368B21ECFAE8300BE9421 /* FriendInfoViewController.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		0762EC971ECB762000C3A4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0796A1631EE8B36C00EF891E /* CoreLocation.framework */,
+				0762ECAB1ECB79E600C3A4BF /* Parse.framework */,
+				0762ECA91ECB79DA00C3A4BF /* Bolts.framework */,
+				0762ECA01ECB76B600C3A4BF /* System Frameworks */,
+				0762EC9C1ECB768C00C3A4BF /* ParseFacebookUtils.framework */,
+				0762EC9E1ECB76A000C3A4BF /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0762ECA01ECB76B600C3A4BF /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0762ECA51ECB76D600C3A4BF /* AudioToolbox.framework */,
+				0762ECA31ECB76CF00C3A4BF /* SystemConfiguration.framework */,
+				0762ECA11ECB76C500C3A4BF /* libstdc++.6.dylib */,
+				0762ECA71ECB76DE00C3A4BF /* libsqlite3.dylib */,
+			);
+			name = "System Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0762EC841EC3BBC600C3A4BF /* SecondViewController.swift in Sources */,
+				0762EC841EC3BBC600C3A4BF /* FriendsViewController.swift in Sources */,
+				07C368B51ED602AE00BE9421 /* AddFriendViewController.swift in Sources */,
 				0762EC801EC3BBC600C3A4BF /* AppDelegate.swift in Sources */,
-				0762EC821EC3BBC600C3A4BF /* FirstViewController.swift in Sources */,
+				07C368B71ED6099F00BE9421 /* AddLocationViewController.swift in Sources */,
+				07C368B31ECFAE8300BE9421 /* FriendInfoViewController.swift in Sources */,
+				0762EC821EC3BBC600C3A4BF /* HomeViewController.swift in Sources */,
+				07C368B11ECBC89600BE9421 /* LoginViewController.swift in Sources */,
+				0762EC941EC3BE6900C3A4BF /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Ooby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tansari.Ooby;
@@ -274,6 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Ooby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tansari.Ooby;
@@ -301,6 +393,7 @@
 				0762EC921EC3BBC600C3A4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
