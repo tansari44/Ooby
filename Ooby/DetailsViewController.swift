@@ -6,6 +6,8 @@
 //  Copyright © 2017 tansari. All rights reserved.
 //
 
+//EVERYTHING HERE NEEDS COMMENTS STILL
+
 import UIKit
 
 class DetailsViewController: UIViewController {
